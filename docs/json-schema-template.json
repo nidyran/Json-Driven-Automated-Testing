@@ -1,0 +1,37 @@
+{
+  "global-configuration": {
+    "variables" : [
+      {
+        "name": "property-name",
+        "value": "property-value"
+      }
+    ]
+  },
+  "scripts": [
+    {
+      "name" : "script-name",
+      "description" : "script-description",
+      "category" : "script-category",
+      "depends-on": ["script-name"],
+      "includes-before": ["script-name"],
+      "includes-after": ["script-name"],
+      "variables" : [
+          {
+          "name": "property-name",
+          "value": "property-value"
+          }
+      ],
+      "steps": [
+        {
+          "name": "step-name",
+          "description": "step-description",
+          "type": "navigate, click, input, select, wait, assert, execute",
+          "selector-type": "css, xpath, id, name, class, tag",
+          "selector": "selector-value",
+          "value": "value",
+          "mandatory": true
+        }
+      ]
+    }
+  ]
+}
