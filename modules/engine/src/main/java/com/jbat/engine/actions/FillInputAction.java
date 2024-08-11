@@ -1,5 +1,6 @@
 package com.jbat.engine.actions;
 
+import com.jbat.engine.sdk.ElementSelector;
 import com.jbat.engine.sdk.OnElementAction;
 import com.jbat.engine.sdk.ScriptExecutionContext;
 import com.jbat.engine.sdk.SelectorType;
@@ -11,8 +12,8 @@ import org.openqa.selenium.WebDriver;
 public class FillInputAction extends OnElementAction {
     private final String keys;
 
-    public FillInputAction(String selector, SelectorType selectorType, String keys) {
-        super(selector, selectorType);
+    public FillInputAction(ElementSelector selector, String keys) {
+        super(selector);
         this.keys = keys;
     }
 

@@ -1,8 +1,8 @@
 package com.jbat.engine.actions;
 
+import com.jbat.engine.sdk.ElementSelector;
 import com.jbat.engine.sdk.OnElementAction;
 import com.jbat.engine.sdk.ScriptExecutionContext;
-import com.jbat.engine.sdk.SelectorType;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -10,8 +10,8 @@ import org.openqa.selenium.WebDriver;
  */
 public class ClickAction extends OnElementAction {
 
-    public ClickAction(String selector, SelectorType selectorType) {
-        super(selector, selectorType);
+    public ClickAction(ElementSelector selector) {
+        super(selector);
     }
 
     @Override
