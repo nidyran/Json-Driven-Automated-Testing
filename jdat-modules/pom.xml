@@ -15,7 +15,9 @@
     <modules>
         <module>jdat-engine</module>
         <module>jdat-sdk</module>
+        <module>jdat-scripts-loader</module>
         <module>jdat-launcher</module>
+        <module>jdat-selenium-script-executor</module>
     </modules>
 
     <dependencyManagement>

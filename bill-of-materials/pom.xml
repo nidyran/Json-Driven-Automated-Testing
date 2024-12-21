@@ -16,7 +16,7 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Spring Boot dependencies -->
+            <!-- External dependencies -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -33,12 +33,22 @@
             <!-- Jbat modules dependencies -->
             <dependency>
                 <groupId>com.jbat</groupId>
+                <artifactId>jdat-sdk</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jbat</groupId>
                 <artifactId>jdat-engine</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jbat</groupId>
-                <artifactId>jdat-modules</artifactId>
+                <artifactId>jdat-scripts-loader</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jbat</groupId>
+                <artifactId>jdat-selenium-script-executor</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

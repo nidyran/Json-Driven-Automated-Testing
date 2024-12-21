@@ -15,12 +15,19 @@
         <dependency>
             <groupId>com.jbat</groupId>
             <artifactId>jdat-engine</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
+            <groupId>com.jbat</groupId>
+            <artifactId>jdat-scripts-loader</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jbat</groupId>
+            <artifactId>jdat-selenium-script-executor</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
         </dependency>
     </dependencies>
 </project>

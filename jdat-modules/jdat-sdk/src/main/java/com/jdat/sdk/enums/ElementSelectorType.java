@@ -7,7 +7,5 @@ public enum ElementSelectorType {
     ID,
     NAME,
     CLASS,
-    TAG,
     XPATH,
-    CSS
 }
